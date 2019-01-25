@@ -537,10 +537,12 @@ animation-delay: .8s;
 ====================================================================
 
  ***/
+ #project-section{
+   background: #232a34;
+ }
 #project-section .project-menu ul {
   text-align: center;
   margin-top: 34px;
-  margin-bottom: 60px;
 }
 #project-section .project-menu ul li {
   display: inline-block;
@@ -561,6 +563,7 @@ animation-delay: .8s;
   margin-bottom: 32px;
   float:left;
   display: none;
+  margin-bottom: 60px;
 }
 #project-section .project-gallery .single-img {
   position: relative;
@@ -572,7 +575,7 @@ animation-delay: .8s;
   left:0;
   right: 0;
   bottom: 0;
-  background: rgba(215,67,77,0.9);
+  background: #009fe3;
   opacity: 0;
   -webkit-transform: scale(0.2);
      -moz-transform: scale(0.2);
@@ -874,8 +877,9 @@ animation-delay: .8s;
 
  ***/
 #skill-section {
-  background: #232a34;
+  background: #fff;
   margin-top: 70px;
+  margin-bottom: 70px;
 }
 #skill-section .img {
   overflow: hidden;
@@ -888,9 +892,9 @@ animation-delay: .8s;
   margin: 125px 0 0 0;
 }
 #skill-section .codeconSkillbar .codeconSkillArea {
-  font-weight: 700;
-  font-size: 15px;
-  color:#fff;
+  font-weight: 100;
+  font-size: 25px;
+  color:rgb(0, 0, 0);
   margin-bottom: 15px;
   float: none;
   margin: 0;
@@ -1620,4 +1624,12 @@ footer p {
 }
 .blog-details-post-wrapper .post-comment form button:hover {
   background:#fff;
+}
+
+.white-tittle {
+  color: white;
+}
+
+.margin-h2 {
+  margin-bottom: 30px;
 }
